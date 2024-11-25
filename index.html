@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Cricket App</title>
-  </head>
-  <body>
-    <div class="container">
-      <label for="ateam">Enter Team A Name</label>
-      <input type="text" id="ateam" />
-      <h1>VS</h1>
-      <label for="bteam">Enter Team B Name</label>
-      <input type="text" id="bteam" />
-      <div class="toss-btn">
-        <button id="btn" class="button">Toss</button>
-      </div>
-      <p id="toss-win"></p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="firstpage.css">
+</head>
+<body>
+    
+    <div id="logg">
+        <video src="https://cdn.pixabay.com/video/2022/03/16/110945-689949688_large.mp4" autoplay muted loop></video>
+
+        
+       <form action="">
+        <label for="name">Empire Name:</label>
+        <input type="text" id="Ename" name="name" required>
+        <br>
+        <label for="Match_dateate">Date</label>
+        <input type="date" id="Match_date" name="date" required>
+        <br>
+
+        <!-- <input type="submit" id="input_submit"> -->
+        <button id="submit"  onclick="fun()" type="submit"><a id="submita"  href="index2.html">Submit</a></button>
+       </form>
+
+       <script src="script.js"></script>
+       <script src="./index.js"></script>
     </div>
-    <script src="index.js" type="text/javascript"></script>
-  </body>
+</body>
 </html>
